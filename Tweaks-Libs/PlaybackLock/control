@@ -1,0 +1,9 @@
+Package: com.twickd.john-sklikas.playbacklock
+Name: PlaybackLock
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Lock (and unlock) with a padlock the music control on the lock screen! 
+Maintainer: isklikas
+Author: isklikas
+Section: Tweaks

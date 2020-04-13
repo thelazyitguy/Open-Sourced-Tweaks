@@ -1,0 +1,9 @@
+Package: com.johnzaro.hidehomebar13
+Name: HideHomebar13
+Depends: mobilesubstrate, firmware (>= 13)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Hides The Homebar System Wide
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks

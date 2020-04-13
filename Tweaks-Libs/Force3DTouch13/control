@@ -1,0 +1,9 @@
+Package: com.johnzaro.force3dtouch13
+Name: Force3DTouch13
+Depends: mobilesubstrate, firmware (>= 13)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Forces The Use Of 3D Touch For Devices With 3D Touch Hardware
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks

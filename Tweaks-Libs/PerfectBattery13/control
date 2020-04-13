@@ -1,0 +1,9 @@
+Package: com.johnzaro.perfectbattery13
+Name: PerfectBattery13
+Depends: mobilesubstrate, firmware (>= 13)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Removes Battery Icon and adds Battery percentage label for nothced iPhones
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks

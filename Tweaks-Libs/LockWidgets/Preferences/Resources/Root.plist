@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+    		<key>cell</key>
+    		<string>PSDefaultCell</string>
+    		<key>cellClass</key>
+    		<string>CTDHeaderCell</string>
+    		<key>title</key>
+    		<string>LockWidgets</string>
+			<key>subtitle</key>
+    		<string>by ConorTheDev</string>
+			<key>iconPath</key>
+    		<string>/Library/PreferenceBundles/LockWidgetsPreferences.bundle/icon.png</string>
+			<key>height</key>
+			<real>150</real>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Configuration</string>
+			<key>footerText</key>
+			<string>Reachability and Hyperion Integration will only show the first widget in your selected widgets, this may be changed soon. Enabling / disabling requires a respring, nothing else does.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.conorthedev.lockwidgets.preferences</string>
+			<key>key</key>
+			<string>kEnabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>me.conorthedev.lockwidgets/ReloadPreferences</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.conorthedev.lockwidgets.preferences</string>
+			<key>key</key>
+			<string>kHideWhenLocked</string>
+			<key>label</key>
+			<string>Hide widgets when device is locked</string>
+			<key>PostNotification</key>
+			<string>me.conorthedev.lockwidgets/ReloadPreferences</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.conorthedev.lockwidgets.preferences</string>
+			<key>key</key>
+			<string>kReachabilityEnabled</string>
+			<key>label</key>
+			<string>Show in Reachability</string>
+			<key>PostNotification</key>
+			<string>me.conorthedev.lockwidgets/ReloadPreferences</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>selectWidgets:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Select Widgets</string>
+			<key>cellClass</key>
+			<string>CTDTableCell</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>LockWidgets</string>
+</dict>
+</plist>

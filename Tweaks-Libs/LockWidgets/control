@@ -1,0 +1,10 @@
+Package: me.conorthedev.lockwidgets
+Name: LockWidgets
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Version: 2.0
+Architecture: iphoneos-arm
+Description: Access your favourite widgets, directly on your lockscreen
+Maintainer: ConorTheDev <con0r.b@protonmail.com>
+Author: ConorTheDev <con0r.b@protonmail.com>
+Section: Tweaks
+Icon: https://repo-cdn.dynastic.co/249611208846475265.fdd5c6a336e3762bd34a54af1275d1b0-256

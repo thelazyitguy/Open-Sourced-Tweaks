@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>CFBundleIdentifier</key>
+        <string>me.conorthedev.lockwidgets.hyperionwidget</string>
+
+        <key>CFBundleDisplayName</key>
+        <string>LockWidgets</string>
+       
+        <key>HyperionWidgetClass</key>
+        <string>LockWidgetsHyperionWidget</string>
+        
+        <key>HyperionWidgetsVersion</key>
+        <integer>1</integer>
+    </dict>
+</plist>
+    

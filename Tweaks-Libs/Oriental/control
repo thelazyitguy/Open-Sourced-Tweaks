@@ -1,0 +1,9 @@
+Package: hi.my.name.is.ubik.oriental
+Name: Oriental
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: ubik <cydia@ubikstyl.es>
+Section: Tweaks
+Description: To rotate or not.
+Author: ubik <cydia@ubikstyl.es>

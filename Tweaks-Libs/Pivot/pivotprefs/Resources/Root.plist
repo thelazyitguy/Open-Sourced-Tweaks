@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+			<key>footerText</key>
+			<string>Pivot by Kritanta | Loosely based on AutoRotate</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.kritanta.pivot</string>
+			<key>key</key>
+			<string>lockWallpaper</string>
+			<key>label</key>
+			<string>Don't Rotate Wallpaper*</string>
+			<key>PostNotification</key>
+			<string>me.kritanta.pivot/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>me.kritanta.pivot</string>
+			<key>key</key>
+			<string>rotationMode</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Disabled</string>
+				<string>Plus Style</string>
+				<string>iPad Style</string>
+			</array>
+			<key>PostNotification</key>
+			<string>me.kritanta.pivot/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.kritanta.pivot</string>
+			<key>key</key>
+			<string>medusa</string>
+			<key>label</key>
+			<string>Enable Everywhere</string>
+			<key>PostNotification</key>
+			<string>me.kritanta.pivot/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.kritanta.pivot</string>
+			<key>key</key>
+			<string>invert</string>
+			<key>label</key>
+			<string>Allow Upside Down</string>
+			<key>PostNotification</key>
+			<string>me.kritanta.pivot/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Pivot</string>
+</dict>
+</plist>

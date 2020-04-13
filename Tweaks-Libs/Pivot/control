@@ -1,0 +1,10 @@
+Package: me.kritanta.pivot
+Name: Pivot
+Depends: mobilesubstrate, firmware (>= 6.0) 
+Version: 0.2.2
+Architecture: iphoneos-arm
+Description: AutoRotate on the Home Screen on all devices
+Depiction: http://repo.kritanta.me/depictions/?id=me.kritanta.pivot
+Maintainer: Kritanta
+Author: Kritanta
+Section: Tweaks

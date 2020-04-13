@@ -1,0 +1,9 @@
+Package: com.ps.anywherepredict
+Name: AnywherePredict
+Depends: mobilesubstrate, firmware (>= 8.0)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Predictive keyboard anywhere.
+Author: PoomSmart
+Maintainer: PoomSmart
+Section: Tweaks

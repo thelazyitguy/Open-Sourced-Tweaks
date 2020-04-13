@@ -1,0 +1,11 @@
+Package: com.ps.pencilpro
+Name: Pencil Pro
+Depends: firmware (>= 9.0), gsc.ipad, mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Apple Pencil can do better.
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks
+Depiction: https://poomsmart.github.io/repo/depictions/pencilpro.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/pencilpro.json

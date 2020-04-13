@@ -1,0 +1,11 @@
+Package: com.ps.quadhighcurrent
+Name: QuadHighCurrent
+Depends: mobilesubstrate, firmware (>= 10.0), gsc.camera-flash, firmware (>= 11.0) | com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Utilize "high current" for Quad-LEDs devices.
+Author: PoomSmart
+Maintainer: PoomSmart
+Section: Tweaks
+Depiction: https://poomsmart.github.io/repo/depictions/quadhighcurrent.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/quadhighcurrent.json

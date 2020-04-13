@@ -1,0 +1,9 @@
+Package: com.johnzaro.networkspeed13
+Name: NetworkSpeed13
+Depends: mobilesubstrate, com.spark.libsparkcolourpicker, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13)
+Version: 1.8
+Architecture: iphoneos-arm
+Description: Shows upload & download speed in the status bar
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks

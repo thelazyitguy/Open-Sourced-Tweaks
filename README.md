@@ -1,4 +1,4 @@
-![Image of Yaktocat](https://raw.githubusercontent.com/thelazyitguy/Open-Sourced-Tweaks/master/mylogo.png)
+![Image of Yaktocat](https://raw.githubusercontent.com/thelazyitguy/Open-Sourced-Tweaks/master/rsz_mylogo.png)
 
 
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pages</key>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>icon@2x.png</string>
+			<key>topLabel</key>
+			<string>Max Recent Apps</string>
+			<key>topControlType</key>
+			<string>Counter</string>
+			<key>topPreferenceKeyLink</key>
+			<string>MaxSuggestions</string>
+			<key>topPostNotification</key>
+			<string>com.p2kdev.floatingdockplus13.settingschanged</string>
+			<key>topMax</key>
+			<real>5</real>
+			<key>topMin</key>
+			<real>1</real>
+			<key>bottomLabel</key>
+			<string>Dock Icons</string>
+			<key>bottomControlType</key>
+			<string>Counter</string>
+			<key>bottomPreferenceKeyLink</key>
+			<string>FloatDockMaxIcons</string>
+			<key>bottomPostNotification</key>
+			<string>com.p2kdev.floatingdockplus13.settingschanged</string>
+			<key>bottomMax</key>
+			<real>15</real>
+			<key>bottomMin</key>
+			<real>1</real>
+		</dict>
+	</array>
+	<key>icon</key>
+	<string>icon@2x.png</string>
+	<key>title</key>
+	<string>FloatyDock13</string>
+</dict>
+</plist>

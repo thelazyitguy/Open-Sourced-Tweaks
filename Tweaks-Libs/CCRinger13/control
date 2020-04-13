@@ -1,0 +1,9 @@
+Package: me.conorthedev.ccringer13
+Name: CCRinger13
+Depends: mobilesubstrate, firmware (>=11.0), com.opa334.ccsupport
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: An awesome Control Center module!
+Maintainer: ConorTheDev <con0r.b@protonmail.com>
+Author: ConorTheDev <con0r.b@protonmail.com>
+Section: Control Center (Modules)

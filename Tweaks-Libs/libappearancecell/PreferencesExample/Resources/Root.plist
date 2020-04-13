@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Example of AppearanceSelectionTableCell</string>
+		</dict>
+		<dict>
+            <key>cell</key>
+            <string>PSDefaultCell</string>
+            <key>cellClass</key>
+            <string>AppearanceSelectionTableCell</string>
+			<key>firstOptionName</key>
+			<string>option 1</string>
+			<key>secondOptionName</key>
+			<string>option 2</string>
+			<key>firstOptionImage</key>
+			<string>/Library/PreferenceBundles/libappearancecell_demo.bundle/demo.png</string>
+			<key>secondOptionImage</key>
+			<string>/Library/PreferenceBundles/libappearancecell_demo.bundle/demo.png</string>
+			<key>defaults</key>
+			<string>me.conorthedev.libappearancecell.demo</string>
+			<key>PostNotification</key>
+			<string>me.conorthedev.libappearancecell.demo/reload</string>
+			<key>key</key>
+			<string>appearance</string>
+			<key>height</key>
+			<integer>160</integer>
+        </dict>
+	</array>
+	<key>title</key>
+	<string>libappearancecell_demo</string>
+</dict>
+</plist>

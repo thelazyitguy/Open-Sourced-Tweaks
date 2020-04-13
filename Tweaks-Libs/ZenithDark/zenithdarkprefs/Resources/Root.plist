@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Enable Tweak</string>
+			<key>footerText</key>
+			<string>Enable to give Zenith&apos;s pull tabs a dark look!</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.mac-user669.zenithdark.prefschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.mac-user669.zenithdark</string>
+			<key>key</key>
+			<string>kEnabled</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Credits</string>
+			<key>footerText</key>
+			<string>Conceptualized by your yours truly.</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>mac-user669.png</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>mac-user669 (@mac-user669)</string>
+			<key>action</key>
+			<string>followMe</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Coded most of the tweak.</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>iKA.png</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>J.K. Hayslip (@iKilledAppl3) </string>
+			<key>action</key>
+			<string>followiKA</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Helped with some of our preferences code and amongst other things.</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>skitty.png</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Skitty (@skittyblock) </string>
+			<key>action</key>
+			<string>followSkitty</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Apply Changes</string>
+			<key>footerText</key>
+			<string>A Respring is needed to apply changes!</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>doAFancyRespring</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>ZenithDark</string>
+</dict>
+</plist>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>HBImageTableCell</string>
+			<key>icon</key>
+			<string>vibe-banner.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Enable tweak</string>
+			<key>defaults</key>
+			<string>com.gilesgc.vibe</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>isEnabled</string>
+			<key>PostNotification</key>
+			<string>com.gilesgc.vibe/prefChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>detail</key>
+			<string>VBEAppListController</string>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>defaults</key>
+			<string>com.gilesgc.vibe</string>
+			<key>label</key>
+			<string>Set custom vibrations</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>sourceLink</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>GitHub.png</string>
+			<key>label</key>
+			<string>Source code</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Vibe</string>
+</dict>
+</plist>

@@ -1,0 +1,9 @@
+Package: cf.1di4r.timemoji
+Name: Timemoji
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0)
+Version: 1.0.5
+Architecture: iphoneos-arm
+Description: Replace AM/PM with emojis 😉
+Maintainer: 1di4r
+Author: 1di4r
+Section: Tweaks

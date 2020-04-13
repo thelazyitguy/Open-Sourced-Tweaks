@@ -1,0 +1,16 @@
+{
+    "GENERAL_HEADER" = "General";
+    "GENERAL_FOOTER" = "General settings for tweak.";
+
+    "PULL_TO_DISMISS_HEADER" = "Pull to Dismiss";
+    "PULL_TO_DISMISS_FOOTER" = "Pull down on the lockscreen to quickly dismiss all notifications.";
+
+    "BLOCK_SCREEN_WAKE_HEADER" = "Block Screen Wake";
+    "BLOCK_SCREEN_WAKE_FOOTER" = "Prevent your screen waking to certain or all notifications. Blacklist mode lets you select the apps you want to prevent from waking your screen.  Whitelist mode will block all apps and let you select the apps you want waking your screen.";
+
+    "MISCELLANEOUS_HEADER" = "Miscellaneous";
+    "MISCELLANEOUS_FOOTER" = "General options and settings for the tweak.";
+
+    "SOCIAL_HEADER" = "Social";
+    "SOCIAL_FOOTER" = "Social links and contact info.";
+}

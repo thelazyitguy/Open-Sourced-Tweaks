@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>HBImageTableCell</string>
+			<key>icon</key>
+			<string>header2.png</string>
+		</dict>
+
+
+
+
+<dict>
+ <key>cellClass</key>
+ <string>HBTwitterCell</string>
+ <key>label</key>
+ <string>1di4r</string>
+ <key>user</key>
+ <string>1DI4R</string>
+ <key>action</key>
+ <string>twitter</string>
+</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>cf.1di4r.timemojiprefs</string>
+			<key>key</key>
+			<string>isEnabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+<string>cf.1di4r.timemojiprefs/ReloadPrefs</string>
+		</dict>
+		<dict>
+ 		 <key>cell</key>
+ 		 <string>PSGroupCell</string>
+ 	 </dict>
+	 <dict>
+	  <key>cell</key>
+	  <string>PSGroupCell</string>
+	  <key>label</key>
+	  <string>make sure to Respring After you picked emojis</string>
+	 </dict>
+<dict>
+	<key>cell</key>
+	<string>PSEditTextCell</string>
+	<key>placeholder</key>
+	<string>Choose an emoji ex: 🌗</string>
+	<key>defaults</key>
+	<string>cf.1di4r.timemojiprefs</string>
+	<key>label</key>
+	<string>Midnight</string>
+	<key>key</key>
+	<string>emoji1</string>
+	<key>alternateColors</key>
+	<true/>
+	<key>PostNotification</key>
+	<string>cf.1di4r.timemojiprefs/ReloadPrefs</string>
+</dict>
+<dict>
+	<key>cell</key>
+	<string>PSEditTextCell</string>
+	<key>placeholder</key>
+	<string>Choose an emoji ex: 🔅</string>
+	<key>defaults</key>
+	<string>cf.1di4r.timemojiprefs</string>
+	<key>label</key>
+	<string>E-Morning</string>
+	<key>key</key>
+	<string>emoji2</string>
+	<key>alternateColors</key>
+	<true/>
+	<key>PostNotification</key>
+	<string>cf.1di4r.timemojiprefs/ReloadPrefs</string>
+</dict>
+<dict>
+	<key>cell</key>
+	<string>PSEditTextCell</string>
+	<key>placeholder</key>
+	<string>Choose an emoji ex: 🔆</string>
+	<key>defaults</key>
+	<string>cf.1di4r.timemojiprefs</string>
+	<key>label</key>
+	<string>Morning</string>
+	<key>key</key>
+	<string>emoji3</string>
+	<key>alternateColors</key>
+	<true/>
+	<key>PostNotification</key>
+	<string>cf.1di4r.timemojiprefs/ReloadPrefs</string>
+</dict>
+<dict>
+	<key>cell</key>
+	<string>PSEditTextCell</string>
+	<key>placeholder</key>
+	<string>Choose an emoji ex: ✨</string>
+	<key>defaults</key>
+	<string>cf.1di4r.timemojiprefs</string>
+	<key>label</key>
+	<string>Evening</string>
+	<key>key</key>
+	<string>emoji4</string>
+	<key>alternateColors</key>
+	<true/>
+	<key>PostNotification</key>
+	<string>cf.1di4r.timemojiprefs/ReloadPrefs</string>
+</dict>
+<dict>
+	<key>cell</key>
+	<string>PSEditTextCell</string>
+	<key>placeholder</key>
+	<string>Choose an emoji ex: 🌙</string>
+	<key>defaults</key>
+	<string>cf.1di4r.timemojiprefs</string>
+	<key>label</key>
+	<string>Night</string>
+	<key>key</key>
+	<string>emoji5</string>
+	<key>alternateColors</key>
+	<true/>
+	<key>PostNotification</key>
+	<string>cf.1di4r.timemojiprefs/ReloadPrefs</string>
+</dict>
+<dict>
+ <key>cell</key>
+ <string>PSGroupCell</string>
+</dict>
+		<dict>
+			<key>action</key>
+			<string>doit</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+
+		<dict>
+ 		 <key>cell</key>
+ 		 <string>PSGroupCell</string>
+ 	 </dict>
+	 <dict>
+		 <key>cellClass</key>
+		 <string>HBLinkTableCell</string>
+		 <key>label</key>
+		 <string>Buy Me A Coffee</string>
+		 <key>subtitle</key>
+		 <string>Support me</string>
+		 <key>url</key>
+		 <string>https://paypal.me/dyarib/2</string>
+		 <key>action</key>
+		 <string>paypal</string>
+	 </dict>
+	 <dict>
+		<key>cellClass</key>
+		<string>HBLinkTableCell</string>
+		<key>label</key>
+		<string>GitHub</string>
+		<key>subtitle</key>
+		<string>Source Code</string>
+		<key>url</key>
+		<string>https://github.com/1di4r</string>
+		<key>action</key>
+		<string>github</string>
+	</dict>
+ 		<dict>
+ 	 	 <key>cell</key>
+ 	 	 <string>PSGroupCell</string>
+ 	 	 <key>label</key>
+ 	 	 <string>© 1di4r 2019 - Timemoji 1.0.5</string>
+ 	  </dict>
+		<dict>
+ 	 	 <key>cell</key>
+ 	 	 <string>PSGroupCell</string>
+ 	 	 <key>label</key>
+ 	 	 <string>have fun ;)</string>
+ 	  </dict>
+
+	</array>
+	<key>title</key>
+	<string>Timemoji</string>
+</dict>
+</plist>

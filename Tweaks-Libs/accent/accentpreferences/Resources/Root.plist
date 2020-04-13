@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>condensed</key>
+    		<true/>
+			<key>icon</key>
+			<string>icon.png</string>
+			<key>headerCellClass</key>
+			<string>HBPackageNameHeaderCell</string>
+			<key>packageIdentifier</key>
+			<string>com.ivanc.accent</string>
+			<key>footerText</key>
+			<string>iOS accent color in macOS style</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Accent</string>
+			<key>footerText</key>
+			<string>A second respring may be needed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ivanc.accentpreferences</string>
+			<key>key</key>
+			<string>isEnabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>com.ivanc.preferenceschanged</string>
+		</dict>
+		<dict>
+            <key>cell</key>
+            <string>PSLinkListCell</string>
+            <key>defaults</key>
+            <string>com.ivanc.accentpreferences</string>
+            <key>detail</key>
+            <string>PSListItemsController</string>
+            <key>key</key>
+            <string>isColor</string>
+            <key>label</key>
+            <string>Color</string>
+            <key>validTitles</key>
+            <array>
+				<string>Teal</string>
+				<string>Blue</string>
+				<string>Purple</string>
+				<string>Pink</string>
+				<string>Red</string>
+				<string>Orange</string>
+				<string>Yellow</string>
+				<string>Green</string>
+				<string>Gray</string>
+            </array>
+            <key>validValues</key>
+            <array>
+				<string>Teal</string>
+				<string>Blue</string>
+				<string>Purple</string>
+				<string>Pink</string>
+				<string>Red</string>
+				<string>Orange</string>
+				<string>Yellow</string>
+				<string>Green</string>
+				<string>Gray</string>
+            </array>
+			<key>PostNotification</key>
+			<string>com.ivanc.preferenceschanged</string>
+		</dict>
+		<dict>
+			<key>bundle</key>
+			<string>AppList</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>isController</key>
+			<string>1</string>
+			<key>label</key>
+			<string>Excluded Apps</string>
+			<key>ALSettingsPath</key>
+			<string>/var/mobile/Library/Preferences/com.ivanc.accentexcluded.plist</string>
+			<key>ALSettingsKeyPrefix</key>
+			<string></string>
+			<key>ALChangeNotification</key>
+			<string>com.ivanc.preferenceschanged</string>
+			<key>ALAllowsSelection</key>
+			<string>1</string>
+			<key>ALSectionDescriptors</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>System Applications</string>
+					<key>predicate</key>
+					<string>isSystemApplication = TRUE</string>
+					<key>cell-class-name</key>
+					<string>ALCheckCell</string>
+					<key>icon-size</key>
+					<string>29</string>
+					<key>suppress-hidden-apps</key>
+					<string>1</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>User Applications</string>
+					<key>predicate</key>
+					<string>isSystemApplication = FALSE</string>
+					<key>cell-class-name</key>
+					<string>ALCheckCell</string>
+					<key>icon-size</key>
+					<string>29</string>
+					<key>suppress-hidden-apps</key>
+					<string>1</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>respring</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Developer</string>
+			<key>footerText</key>
+			<string>Inspired by Chroma from Charlie Hewitt</string>
+
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBTwitterCell</string>
+			<key>label</key>
+			<string>Ivan C.</string>
+			<key>user</key>
+			<string>ivan_cristin</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>initials</key>
+    		<string>GH</string>
+			<key>label</key>
+			<string>Github Repo</string>
+			<key>subtitle</key>
+			<string>Check the source code</string>
+			<key>url</key>
+			<string>https://github.com/ivancristina/accent</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>initials</key>
+    		<string>PP</string>
+			<key>label</key>
+			<string>Donation</string>
+			<key>subtitle</key>
+			<string>Wanna offer a ☕️?</string>
+			<key>url</key>
+			<string>https://paypal.me/IvanCristina</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Accent</string>
+</dict>
+</plist>

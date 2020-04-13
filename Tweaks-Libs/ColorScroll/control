@@ -1,0 +1,9 @@
+Package: com.shepgoba.colorscroll
+Name: ColorScroll
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker (>= 1.6.3) | me.nepeta.libcolorpicker
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: Color your scroll indicator
+Maintainer: shepgoba
+Author: shepgoba
+Section: Tweaks

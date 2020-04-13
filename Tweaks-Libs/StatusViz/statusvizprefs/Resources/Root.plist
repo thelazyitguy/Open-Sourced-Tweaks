@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cellClass</key>
+			<string>KRTwitterCell</string>
+			<key>label</key>
+			<string>Kritanta</string>
+			<key>accountName</key>
+			<string>_kritanta</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>KRLabeledSliderCell</string>
+			<key>default</key>
+			<integer>5</integer>
+			<key>defaults</key>
+			<string>me.kritanta.statusvizprefs</string>
+			<key>id</key>
+			<string>sensitivity</string>
+			<key>key</key>
+			<string>sensitivity</string>
+			<key>label</key>
+			<string>Sensitivity</string>
+			<key>min</key>
+			<integer>1</integer>
+			<key>max</key>
+			<integer>20</integer>
+			<key>showValue</key>
+			<true/>
+			<key>isSegmented</key>
+			<true/>
+			<key>segmentCount</key>
+			<integer>20</integer>
+			<key>height</key>
+			<real>80</real>
+			<key>PostNotification</key>
+			<string>me.kritanta.statusviz/Prefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>StatusViz 0.1.1</string>
+			<key>footerText</key>
+			<string>In early stages and WILL have bugs! Report them to me!</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>StatusViz</string>
+</dict>
+</plist>

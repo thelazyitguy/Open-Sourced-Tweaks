@@ -1,0 +1,9 @@
+Package: me.conorthedev.thiccaudiosnapshotserver
+Name: ThiccASS
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: A modified iOS mediaserverd hook to serve snapshots of current audio buffer via TCP/IP
+Maintainer: ConorTheDev <con0r.b@protonmail.com>
+Author: ConorTheDev <con0r.b@protonmail.com>, Nepeta
+Section: Development
+Replaces: me.conorthedev.audiosnapshotserver

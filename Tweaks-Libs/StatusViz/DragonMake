@@ -1,0 +1,25 @@
+# DragonMake, named after sharing similarities with GNU Make Makefiles; does not use GNU Make.
+
+# What will our generated dylib be named?
+TWEAK_NAME="StatusViz"
+# Minimum iOS
+MINIOS="11.0"
+# Archs supported?
+ARCHS="-arch arm64 -arch arm64e"
+# flags to pass to clang 
+CFLAGS="-I../libmitsuha/public"
+# What type of project is this? (Tweak | Library | Prefs | SubTweak)
+TWEAK_TYPE="Tweak"
+# What files should we preprocess into .m files?
+LOGOS_FILE="StatusViz.xm"
+# Rest of the shit we need?
+TWEAK_FILES=""
+# What do we run over ssh after the deb has been installed?
+INSTALL_CMD="killall -9 SpringBoard"
+# Libraries to link
+# libobjc and libc++ are included by default
+LIBS="-lmitsuha -lCozy"
+# Frameworks
+# CoreFoundation, Foundation, UIKit, CoreGraphics, and QuartzCore are included by default
+FRAMEWORKS=""
+SUBPROJECTS="statusvizprefs"

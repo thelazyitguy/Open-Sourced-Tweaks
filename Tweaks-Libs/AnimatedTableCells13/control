@@ -1,0 +1,9 @@
+Package: com.johnzaro.animatedtablecells13
+Name: AnimatedTableCells13
+Depends: mobilesubstrate, firmware (>= 13)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Adds A Slide & Bounce Effect When Scrolling In Table Views
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks

@@ -1,0 +1,10 @@
+Package: com.spos
+Name: Sposify 
+Depends: mobilesubstrate
+Version: 8.5.49
+Architecture: iphoneos-arm
+Description: Sposify is a tweak which adds various enhancements to the Spotify application on iOS
+Maintainer: aesthyrica
+Author: aesthyrica
+Section: Tweaks
+Depiction: https://aesthyrica.com/repo/package/com.sposify.client.html

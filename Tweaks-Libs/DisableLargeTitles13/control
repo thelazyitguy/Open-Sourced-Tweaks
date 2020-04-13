@@ -1,0 +1,9 @@
+Package: com.johnzaro.disablelargetitles13
+Name: DisableLargeTitles13
+Depends: mobilesubstrate, firmware (>= 13)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Disables Large Titles System Wide
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Author: Johnzaro <johnzrgnns@gmail.com>
+Section: Tweaks

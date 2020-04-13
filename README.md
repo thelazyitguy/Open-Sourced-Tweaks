@@ -1,5 +1,6 @@
-![Image of Yaktocat](https://raw.githubusercontent.com/thelazyitguy/Open-Sourced-Tweaks/master/rsz_mylogo.png)
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/thelazyitguy/Open-Sourced-Tweaks/master/rsz_mylogo.png">
+</p>
 
 
 # Open-Sourced-Tweaks

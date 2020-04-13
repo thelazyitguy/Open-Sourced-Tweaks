@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>HBImageTableCell</string>
+			<key>height</key>
+			<string>150</string>
+			<key>icon</key>
+			<string>AutoFolderClose-Header</string>
+		</dict>
+			<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>"A wrathful man stirreth up strife: but he that is slow to anger appeaseth strife." - Proverbs 15:18 (KJV)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Enable Tweak</string>
+			<key>footerText</key>
+			<string>Is it drafty in here or is just me? Close that folder already!</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.ikilledappl3.autofolderclose</string>
+			<key>key</key>
+			<string>kEnabled</string>
+			<key>label</key>
+			<string>Enable Me</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Follow me on Twitter for support/issues or just to follow!</string>
+			<key>label</key>
+			<string>Support</string>
+		</dict>
+		<dict>
+			<key>big</key>
+			<string>56</string>
+			<key>cellClass</key>
+			<string>HBTwitterCell</string>
+			<key>label</key>
+			<string>iKilledAppl3</string>
+			<key>user</key>
+			<string>iKilledAppl3</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Please consider donating it helps a lot!</string>
+			<key>label</key>
+			<string>Donate</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>icon</key>
+			<string>paypal.png</string>
+			<key>label</key>
+			<string>Donate via PayPal</string>
+			<key>url</key>
+			<string>https://www.paypal.me/iKilledAppl3</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Apply Changes</string>
+			<key>footerText</key>
+			<string>Respring is needed to apply changes.</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>doAFancyRespring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>cellClass</key>
+			<string>HBTintedTableCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<string>1</string>
+			<key>footerText</key>
+			<string>AutoFolderClose © 2020 J.K. Hayslip (@iKilledAppl3) and iKilledAppl3 LLC. All rights reserved. Romans 6:10</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>AutoFolderClose</string>
+</dict>
+</plist>

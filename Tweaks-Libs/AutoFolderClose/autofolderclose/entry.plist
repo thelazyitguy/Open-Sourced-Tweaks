@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = AutoFolderClose;
+	cell = PSLinkCell;
+	detail = AutoFolderCloseListController;
+	icon = AutoFolderClose.png;
+	isController = 1;
+	label = AutoFolderClose;
+    };
+}

@@ -1,0 +1,9 @@
+Package: com.ikilledappl3.autofolderclose
+Name: AutoFolderClose
+Depends: mobilesubstrate, ws.hbang.common, firmware (>= 13.0)
+Version: 1.0-1
+Architecture: iphoneos-arm
+Description: Closes your folder when you launch an application.
+Maintainer: iKilledAppl3 <ipodnewbee234@icloud.com>
+Author: iKilledAppl3 <ipodnewbee234@icloud.com>
+Section: Tweaks

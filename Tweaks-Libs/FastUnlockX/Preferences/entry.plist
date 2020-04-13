@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = FastUnlockX;
+	cell = PSLinkCell;
+	detail = CPDDFUXRootListController;
+	icon = images/FastUnlockX.png;
+	isController = 1;
+	label = FastUnlockX;
+    };
+}

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>BLACKLIST_DESCRIPTION</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>bundle</key>
+			<string>AppList</string>
+			<key>isController</key>
+			<string>1</string>
+			<key>label</key>
+			<string>BLACKLIST</string>
+			<key>ALAllowsSelection</key>
+			<string>1</string>
+			<key>ALSettingsKeyPrefix</key>
+			<string></string>
+			<key>ALSettingsDefaultValue</key>
+			<string>0</string>
+			<key>ALSettingsPath</key>
+			<string>/var/mobile/Library/Preferences/com.toggleable.tempspawn~blacklist.plist</string>
+			<key>ALSingleEnabledMode</key>
+			<false/>
+			<key>ALChangeNotification</key>
+			<string>com.toggleable.tempspawn~blacklistChanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>KILL_ON_EXIT_DESCRIPTION</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>bundle</key>
+			<string>AppList</string>
+			<key>isController</key>
+			<string>1</string>
+			<key>label</key>
+			<string>KILL_ON_EXIT</string>
+			<key>ALAllowsSelection</key>
+			<string>1</string>
+			<key>ALSettingsKeyPrefix</key>
+			<string></string>
+			<key>ALSettingsDefaultValue</key>
+			<string>0</string>
+			<key>ALSettingsPath</key>
+			<string>/var/mobile/Library/Preferences/com.toggleable.tempspawn~killOnExit.plist</string>
+			<key>ALSingleEnabledMode</key>
+			<false/>
+			<key>ALChangeNotification</key>
+			<string>com.toggleable.tempspawn~killOnExitChanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>DEBUG_MODE_DESCRIPTION</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.toggleable.tempspawn</string>
+			<key>label</key>
+			<string>DEBUG_MODE</string>
+			<key>key</key>
+			<string>debugMode</string>
+			<key>PostNotification</key>
+			<string>com.toggleable.tempspawn~prefsChanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>https://github.com/infernoboy/Temporary-Background-Spawn</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>VIEW_SOURCE_CODE</string>
+			<key>action</key>
+			<string>openSourceCodeURL</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>AUTHOR</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>CONTACT</string>
+			<key>action</key>
+			<string>openContactMe</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Temporary Background Spawn</string>
+</dict>
+</plist>

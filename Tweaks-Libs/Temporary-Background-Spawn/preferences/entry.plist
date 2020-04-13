@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = TempSpawnPreferences;
+		cell = PSLinkCell;
+		detail = TSPreferencesListController;
+		isController = 1;
+		label = "Temporary Background Spawn";
+		icon = icon.png;
+	};
+}

@@ -1,0 +1,20 @@
+{
+	"TempSpawn" = "Temporary Background Spawn";
+	"VIEW_SOURCE_CODE" = "View Source Code";
+	"CONTACT" = "Contact Me";
+	"AUTHOR" = "Created and maintained by Travis Roman.";
+	"BLACKLIST" = "Apps allowed to remain open";
+	"BLACKLIST_DESCRIPTION" = "Changes take effect immediately.
+
+Useful for apps such as:
+    * Tile
+    * August
+    * Nest
+    * etc.
+
+Apps playing or recording audio will remain open automatically.";
+	"KILL_ON_EXIT" = "Apps to kill upon exiting";
+	"KILL_ON_EXIT_DESCRIPTION" = "Apps selected here will be killed after 30 seconds when you exit them or lock your device.";
+	"DEBUG_MODE" = "Debug Notifications";
+	"DEBUG_MODE_DESCRIPTION" = "Display a notification whenever the state of background apps change. Notifications will appear from the Shortcuts app to ensure they actually show up.";
+}

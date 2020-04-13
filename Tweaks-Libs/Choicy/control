@@ -1,0 +1,10 @@
+Package: com.opa334.choicy
+Name: Choicy
+Depends: mobilesubstrate, applist
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Advanced Tweak Configuration!
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Maintainer: opa334 <opa334@protonmail.com>
+Author: opa334 <opa334@protonmail.com>
+Section: Tweaks

@@ -1,0 +1,9 @@
+Package: com.toggleable.tempspawn
+Name: Temporary Background Spawn
+Depends: mobilesubstrate, applist, com.cokepokes.libnotifications, preferenceloader, firmware (>= 12.0), cy+cpu.arm64 | cy+cpu.arm64e
+Version: 1.0.6~beta3
+Architecture: iphoneos-arm
+Description: Kills apps spawned in the background after 30 seconds, or as soon as background activity ceases.
+Maintainer: Travis Roman
+Author: Travis Roman
+Section: Tweaks

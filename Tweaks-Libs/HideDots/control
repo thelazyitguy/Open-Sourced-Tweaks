@@ -1,0 +1,9 @@
+Package: cf.1di4r.hidedots
+Name: HideDots
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Version: 1.5
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: 1di4r
+Author: 1di4r
+Section: Tweaks

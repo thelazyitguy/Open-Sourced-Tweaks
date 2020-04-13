@@ -1,0 +1,9 @@
+Package: com.m4rkey.swipelock
+Name: SwipeLock
+Depends: mobilesubstrate
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: Allows you to swipe up from the homescreen to lock the device.
+Maintainer: m4rkey
+Author: m4rkey (Mark)
+Section: Tweaks

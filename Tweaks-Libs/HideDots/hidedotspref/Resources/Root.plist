@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+
+		<dict>
+		 <key>cellClass</key>
+		 <string>HBTwitterCell</string>
+		 <key>label</key>
+		 <string>1di4r</string>
+		 <key>user</key>
+		 <string>1DI4R</string>
+		 <key>action</key>
+		 <string>twitter</string>
+		</dict>
+
+				<dict>
+					<key>cell</key>
+					<string>PSSwitchCell</string>
+					<key>default</key>
+					<true/>
+					<key>defaults</key>
+					<string>cf.1di4r.hidedotspref</string>
+					<key>key</key>
+					<string>isHS</string>
+					<key>label</key>
+					<string>HomeScreen</string>
+					<key>PostNotification</key>
+		<string>cf.1di4r.hidedotspref/ReloadPrefs</string>
+				</dict>
+
+					<dict>
+						<key>cell</key>
+						<string>PSSwitchCell</string>
+						<key>default</key>
+						<true/>
+						<key>defaults</key>
+						<string>cf.1di4r.hidedotspref</string>
+						<key>key</key>
+						<string>isLS</string>
+						<key>label</key>
+						<string>LockScreen</string>
+						<key>PostNotification</key>
+			<string>cf.1di4r.hidedotspref/ReloadPrefs</string>
+					</dict>
+					<dict>
+		 		 <key>cell</key>
+		 		 <string>PSGroupCell</string>
+		 	 </dict>
+
+
+				<dict>
+					<key>action</key>
+					<string>respring</string>
+					<key>cell</key>
+					<string>PSButtonCell</string>
+					<key>label</key>
+					<string>Respring</string>
+					<key>action</key>
+					<string>respring</string>
+				</dict>
+
+				<dict>
+		 		 <key>cell</key>
+		 		 <string>PSGroupCell</string>
+		 	 </dict>
+			 <dict>
+				<key>cellClass</key>
+				<string>HBLinkTableCell</string>
+				<key>label</key>
+				<string>GitHub</string>
+				<key>subtitle</key>
+				<string>Source Code</string>
+				<key>action</key>
+				<string>github</string>
+
+			</dict>
+		 		<dict>
+		 	 	 <key>cell</key>
+		 	 	 <string>PSGroupCell</string>
+		 	 	 <key>label</key>
+		 	 	 <string>© 1di4r 2020 - HideDots 1.5</string>
+		 	  </dict>
+
+	</array>
+	<key>title</key>
+	<string>HideDots</string>
+</dict>
+</plist>

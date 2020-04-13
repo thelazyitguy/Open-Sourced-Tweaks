@@ -1,0 +1,9 @@
+Package: com.libe.pokebar
+Name: PokeBar
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Pokemon R/B/Y style notifications.
+Maintainer: Liberato Aguilar
+Author: Liberato Aguilar
+Section: Tweaks

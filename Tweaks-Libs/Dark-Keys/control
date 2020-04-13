@@ -1,0 +1,10 @@
+Package: com.patrick.darkkeysxii
+Name: Dark Keys
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11)
+Version: 1.1.7
+Architecture: iphoneos-arm
+Description: Have a whole new dark universal keyboard with DarkKeys!
+Maintainer: Patrick & Ultra <vysionnetwork@gmail.com>
+Author: Patrick & Ultra
+Section: Tweaks
+Conflicts: com.gnos.bloard, com.patrick.lightkeys, org.thebigboss.nudekeys, com.spark.laetus

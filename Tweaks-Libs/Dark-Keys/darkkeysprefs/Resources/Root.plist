@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>title</key>
+<string> </string>
+	<key>items</key>
+	<array>
+
+	
+		<dict>
+			<key>cellClass</key>
+			<string>HBImageTableCell</string>
+			<key>height</key>
+			<integer>200</integer>
+			<key>icon</key>
+			<string>banner.png</string>
+		</dict>
+
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Enable/Disable</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.patrick.darkkeys</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>key</key>
+			<string>enable</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>default</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Development Team</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBTwitterCell</string>
+			<key>label</key>
+			<string>Patrick</string>
+			<key>user</key>
+			<string>amrealpatrick</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBTwitterCell</string>
+			<key>label</key>
+			<string>Ultra</string>
+			<key>user</key>
+			<string>Ultra_038</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBTwitterCell</string>
+			<key>label</key>
+			<string>23Aaron</string>
+			<key>user</key>
+			<string>23Aaron_</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBTwitterCell</string>
+			<key>label</key>
+			<string>Mat</string>
+			<key>user</key>
+			<string>MathieuWithOneT</string>
+		</dict>
+   		<dict>
+			<key>cellClass</key>
+			<string>HBTwitterCell</string>
+			<key>label</key>
+			<string>viperfan17</string>
+			<key>user</key>
+			<string>aceninja17</string>
+		</dict>
+
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Dark Keys by Patrick</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>

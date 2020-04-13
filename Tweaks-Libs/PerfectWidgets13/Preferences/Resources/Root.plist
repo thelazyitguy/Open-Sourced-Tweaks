@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>PWGRootHeaderView</string>
+			<key>icon</key>
+			<string>PWGHeader.png</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>GENERAL OPTIONS</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectwidgets13prefs</string>
+			<key>key</key>
+			<string>hideClock</string>
+			<key>label</key>
+			<string>Hide Clock Widget</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectwidgets13prefs</string>
+			<key>key</key>
+			<string>hideSearchBar</string>
+			<key>label</key>
+			<string>Hide Search Bar</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectwidgets13prefs</string>
+			<key>key</key>
+			<string>hideWeatherProvided</string>
+			<key>label</key>
+			<string>Hide 'Weather Provided By...'</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectwidgets13prefs</string>
+			<key>key</key>
+			<string>alwaysExtendedWidgets</string>
+			<key>label</key>
+			<string>Always Extended Widgets</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectwidgets13prefs</string>
+			<key>key</key>
+			<string>hideNewWidgetsAvailable</string>
+			<key>label</key>
+			<string>Hide 'New Widgets...' Text</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>WIDGET BACKGROUND</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectwidgets13prefs</string>
+			<key>key</key>
+			<string>colorizeBackground</string>
+			<key>label</key>
+			<string>Colorize Background</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectwidgets13prefs</string>
+			<key>key</key>
+			<string>customBackgroundColorEnabled</string>
+			<key>label</key>
+			<string>Enable Custom Background Color</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>SparkColourPickerCell</string>
+			<key>libsparkcolourpicker</key>
+			<dict>
+				<key>defaults</key>
+				<string>com.johnzaro.perfectwidgets13prefs.colors</string>
+				<key>key</key>
+				<string>customBackgroundColor</string>
+				<key>fallback</key>
+				<string>#FF9400</string>
+				<key>alpha</key>
+				<false/>
+			</dict>
+			<key>label</key>
+			<string>Custom Background Color</string>
+			<key>key</key>
+			<string>customBackgroundColor</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>WIDGET BORDER</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectwidgets13prefs</string>
+			<key>key</key>
+			<string>colorizeBorder</string>
+			<key>label</key>
+			<string>Colorize Border</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectwidgets13prefs</string>
+			<key>key</key>
+			<string>customBorderColorEnabled</string>
+			<key>label</key>
+			<string>Enable Custom Border Color</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>SparkColourPickerCell</string>
+			<key>libsparkcolourpicker</key>
+			<dict>
+				<key>defaults</key>
+				<string>com.johnzaro.perfectwidgets13prefs.colors</string>
+				<key>key</key>
+				<string>customBorderColor</string>
+				<key>fallback</key>
+				<string>#FF9400</string>
+				<key>alpha</key>
+				<false/>
+			</dict>
+			<key>label</key>
+			<string>Custom Border Color</string>
+			<key>key</key>
+			<string>customBorderColor</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>BORDER WIDTH</string>
+        </dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBStepperTableCell</string>
+			<key>default</key>
+			<real>3</real>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectwidgets13prefs</string>
+			<key>key</key>
+			<string>borderWidth</string>
+			<key>label</key>
+			<string>%i Pixels</string>
+			<key>singularLabel</key>
+			<string>1 Pixel</string>
+			<key>max</key>
+			<real>8</real>
+			<key>min</key>
+			<real>1</real>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>OTHER VISUAL OPTIONS</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectwidgets13prefs</string>
+			<key>key</key>
+			<string>tranparentWidgetHeader</string>
+			<key>label</key>
+			<string>Transparent Widget Header</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>WIDGET CORNER RADIUS</string>
+        </dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBStepperTableCell</string>
+			<key>default</key>
+			<real>13</real>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectwidgets13prefs</string>
+			<key>key</key>
+			<string>widgetCorner</string>
+			<key>label</key>
+			<string>%i Pixels</string>
+			<key>singularLabel</key>
+			<string>1 Pixel</string>
+			<key>max</key>
+			<real>35</real>
+			<key>min</key>
+			<real>0</real>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>WHEN RESETING, RESPRING WILL OCCUR</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>reset:</string>
+			<key>label</key>
+			<string>Reset All Settings</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ABOUT THIS TWEAK</string>
+        </dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Source Code</string>
+			<key>icon</key>
+			<string>github.png</string>
+			<key>url</key>
+   	 		<string>https://github.com/johnzaro/PerfectWidgets13</string>
+		</dict>
+ 		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ABOUT ME</string>
+			<key>footerText</key>
+			<string>© 2020 John Zarogiannis (johnzaro)</string>
+        </dict>
+		<dict>
+			<key>big</key>
+    		<true/>
+            <key>cellClass</key>
+            <string>HBTwitterCell</string>
+			<key>height</key>
+    		<integer>56</integer>
+            <key>label</key>
+            <string>John Zarogiannis</string>
+            <key>user</key>
+            <string>johnzaro</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>Email Me</string>
+            <key>action</key>
+            <string>email</string>
+            <key>icon</key>
+            <string>email.png</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>Check me on Reddit</string>
+            <key>action</key>
+            <string>reddit</string>
+            <key>icon</key>
+            <string>reddit.png</string>
+        </dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Like my work? Buy me a coffee :)</string>
+			<key>icon</key>
+			<string>donate.png</string>
+			<key>url</key>
+   	 		<string>https://paypal.me/JohnZarogiannis</string>
+        </dict>
+	</array>
+	<key>title</key>
+	<string>perfectappswitcher13</string>
+</dict>
+</plist>

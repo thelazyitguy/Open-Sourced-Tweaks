@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#leave this unset
+export TOOLCHAINS=
+
+TWEAK_NAME="ShakeLight"
+MINIOS="13.0"
+ARCHS="-arch arm64 -arch arm64e"
+CFLAGS="-fobjc-arc -w -fobjc-arc -includePrefix.h -I./headers/ -I./libcrosstalk/ -I./VeloxClasses/ -I. $(ls -d ./VeloxClasses/*/ ls -d ./Widgets/*/ 2>/dev/null | xargs | sed "s:\./:-I\./:g")"
+
+TWEAK_TYPE="Tweak"
+
+ignore_dirs=""
+
+LOGOS_FILE="$(find . -name '*.x*' -not -path './.theos/*' -not -path './.dragon/*' ${ignore_dirs} -not -path './.ccls-cache/*' | xargs)"
+
+TWEAK_FILES="$(find . -name '*.m' -not -path './.theos/*' -not -path './.dragon/*' ${ignore_dirs} -not -path './.ccls-cache/*' | xargs)"
+
+INSTALL_CMD="sbreload"
+
+LIBS=""
+
+FRAMEWORKS="-framework AVFoundation"
+SUBPROJECTS=""

@@ -1,0 +1,9 @@
+Package: me.conorthedev.libconorthedev
+Name: libconorthedev
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: The core library which contains the necessary tools for most tweaks by ConorTheDev to function!
+Maintainer: ConorTheDev <con0r.b@protonmail.com>
+Author: ConorTheDev <con0r.b@protonmail.com>
+Section: System
+Tag: role::developer

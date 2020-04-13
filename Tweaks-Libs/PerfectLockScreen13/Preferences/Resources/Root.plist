@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>PLSRootHeaderView</string>
+			<key>icon</key>
+			<string>PLSHeader.png</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>SETTINGS</string>
+			<key>footerText</key>
+			<string>Round Corners Has An Effect Only On Rounded Screens</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectlockscreen13prefs</string>
+			<key>key</key>
+			<string>removeCCGrabber</string>
+			<key>label</key>
+			<string>Remove CC Grabber</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectlockscreen13prefs</string>
+			<key>key</key>
+			<string>autoRetryFaceID</string>
+			<key>label</key>
+			<string>Auto Retry Face ID</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectlockscreen13prefs</string>
+			<key>key</key>
+			<string>doNotWakeWhenFlashlight</string>
+			<key>label</key>
+			<string>Not Wake Screen On Flashlight</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectlockscreen13prefs</string>
+			<key>key</key>
+			<string>noDragOnMediaPlayer</string>
+			<key>label</key>
+			<string>Disable Drag On Media Player</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectlockscreen13prefs</string>
+			<key>key</key>
+			<string>noSwipeToUnlockText</string>
+			<key>label</key>
+			<string>Hide 'Swipe Up' Text</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectlockscreen13prefs</string>
+			<key>key</key>
+			<string>roundedCorners</string>
+			<key>label</key>
+			<string>Make Corners Round</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectlockscreen13prefs</string>
+			<key>key</key>
+			<string>quickActionsTransparentBackground</string>
+			<key>label</key>
+			<string>Hide Quick Actions BG</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectlockscreen13prefs</string>
+			<key>key</key>
+			<string>enableAutoRotate</string>
+			<key>label</key>
+			<string>Enable Auto Rotate</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectlockscreen13prefs</string>
+			<key>key</key>
+			<string>HideBatteryChargingAnimation</string>
+			<key>label</key>
+			<string>No Battery Charging Anim.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectlockscreen13prefs</string>
+			<key>key</key>
+			<string>hideTodayView</string>
+			<key>label</key>
+			<string>Hide Today View</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectlockscreen13prefs</string>
+			<key>key</key>
+			<string>hideDate</string>
+			<key>label</key>
+			<string>Hide Date</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectlockscreen13prefs</string>
+			<key>key</key>
+			<string>disableCamera</string>
+			<key>label</key>
+			<string>Disable Camera</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectlockscreen13prefs</string>
+			<key>key</key>
+			<string>idleTimerDuration</string>
+			<key>label</key>
+			<string>Custom Idle Duration</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>3</integer>
+			<key>defaults</key>
+			<string>com.johnzaro.perfectlockscreen13prefs</string>
+			<key>key</key>
+			<string>idleDuration</string>
+			<key>validTitles</key>
+			<array>
+      			<string>10 Sec</string>
+      			<string>20 Sec</string>
+      			<string>30 Sec</string>
+			</array>
+      		<key>validValues</key>
+			<array>
+      			<string>3</string>
+      			<string>5</string>
+      			<string>7</string>
+			</array>
+			<key>label</key>
+			<string>Idle Duration</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>WHEN RESETING, RESPRING WILL OCCUR</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>reset:</string>
+			<key>label</key>
+			<string>Reset All Settings</string>
+		</dict>
+		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ABOUT THIS TWEAK</string>
+        </dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Source Code</string>
+			<key>icon</key>
+			<string>github.png</string>
+			<key>url</key>
+   	 		<string>https://github.com/johnzaro/PerfectLockScreen13</string>
+		</dict>
+ 		<dict>
+        	<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ABOUT ME</string>
+			<key>footerText</key>
+			<string>© 2020 John Zarogiannis (johnzaro)</string>
+        </dict>
+		<dict>
+			<key>big</key>
+    		<true/>
+            <key>cellClass</key>
+            <string>HBTwitterCell</string>
+			<key>height</key>
+    		<integer>56</integer>
+            <key>label</key>
+            <string>John Zarogiannis</string>
+            <key>user</key>
+            <string>johnzaro</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>Email Me</string>
+            <key>action</key>
+            <string>email</string>
+            <key>icon</key>
+            <string>email.png</string>
+        </dict>
+		<dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>Check me on Reddit</string>
+            <key>action</key>
+            <string>reddit</string>
+            <key>icon</key>
+            <string>reddit.png</string>
+        </dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Like my work? Buy me a coffee :)</string>
+			<key>icon</key>
+			<string>donate.png</string>
+			<key>url</key>
+   	 		<string>https://paypal.me/JohnZarogiannis</string>
+        </dict>
+	</array>
+	<key>title</key>
+	<string>PerfectLockScreen13</string>
+</dict>
+</plist>
